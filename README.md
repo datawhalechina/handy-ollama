@@ -1,4 +1,4 @@
-# self-ollama
+# 🦙💻 self-ollama
 Learning to deploy Ollama with hands-on practice, making the deployment of large language models accessible to everyone!
 
 ## 项目简介
@@ -9,6 +9,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 
 ## 项目受众
 - 希望不受GPU资源限制，在本地运行大模型；
+- 希望在消费级硬件上进行大模型有效的推理；
 - 希望在本地部署大模型，开发大模型应用；
 - 希望在本地管理大模型，让本地模型安全可靠。
 
@@ -17,15 +18,24 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 
 ## 项目规划
 ### 目录（持续更新中...）
-- [ ] Ollama介绍
-- [ ] Ollama安装与配置
+- [ ] Ollama 介绍
+- [ ] Ollama 安装与配置
   - [ ] macOS
   - [ ] Windows
   - [ ] Linux
   - [ ] Docker
-- [ ] Ollama导入模型到本地的三种方式
-- [ ] 使用Ollama原生API开发应用
-- [ ] LangChain中使用Ollama-Python
-- [ ] LangChain中使用Ollama-JavaScript
-- [ ] 基于 WebUI 部署 Ollama 可视化对话界面
-
+- [ ] 自定义导入模型
+- [ ] Ollama REST API
+  - [ ] Ollama API 使用指南
+  - [ ] 在 Python 中使用 Ollama API
+  - [ ] 在 Java 中使用 Ollama API
+- [ ] Ollama 在 LangChain 中的使用
+    - [ ] 在 Python 中的集成
+    - [ ] 在 JavaScript 中的集成
+- [ ] Ollama 可视化界面部署
+    - [ ] 使用 FastAPI 部署 Ollama 可视化对话界面
+    - [ ] 使用 WebUI 部署 Ollama 可视化对话界面
+- [ ] 应用案例
+    - [ ] 搭建本地 RAG 应用
+    - [ ] 搭建本地的 AI Copilot 编程助手
+    - [ ] Dify 接入 Ollama 部署的本地模型
