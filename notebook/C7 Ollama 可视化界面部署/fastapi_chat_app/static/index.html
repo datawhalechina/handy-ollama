@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat with Llama 3.1</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+        .chat-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 60%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            background-color: white;
+        }
+        .message {
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            max-width: 80%;
+            line-height: 1.5;
+            word-break: break-word;
+            white-space: pre-wrap; /* Ensure white spaces and new lines are preserved */
+        }
+        .user {
+            background-color: #d1ffd6;
+            align-self: flex-end;
+        }
+        .bot {
+            background-color: #e2e2e2;
+            align-self: flex-start;
+        }
+        .input-container {
+            display: flex;
+            width: 60%;
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+        .input-container textarea {
+            flex: 1;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            resize: none;
+            outline: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .input-container button {
+            padding: 15px 20px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border-radius: 10px;
+            margin-left: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+        .input-container button:hover {
+            background-color: #45a049;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: -10px; /* Adjust spacing as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1>Chat with Llama 3.1</h1>
+    <p>powered by Ollama</p>
+    <div class="chat-container" id="conversation"></div>
+    <div class="input-container">
+        <textarea id="user_input" rows="3" placeholder="Type your message here..." onkeydown="handleKeyDown(event)"></textarea>
+        <button onclick="submitForm()">Send</button>
+    </div>
+    <script>
+        const conversationDiv = document.getElementById('conversation');
+        let botMessageDiv = null;
+
+        async function submitForm() {
+            const userInput = document.getElementById('user_input').value;
+            if (!userInput) return;
+
+            // Add user message to the conversation
+            addMessage("User", userInput, "user");
+
+            // Clear user input
+            document.getElementById('user_input').value = '';
+
+            // Create a new WebSocket connection
+            const websocket = new WebSocket(`ws://${location.host}/ws`);
+
+            websocket.onopen = () => {
+                websocket.send(userInput);
+            };
+
+            websocket.onmessage = (event) => {
+                if (!botMessageDiv) {
+                    botMessageDiv = document.createElement('div');
+                    botMessageDiv.className = 'message bot';
+                    conversationDiv.appendChild(botMessageDiv);
+                }
+                botMessageDiv.textContent += event.data;
+                scrollToBottom();
+            };
+
+            websocket.onclose = () => {
+                console.log('WebSocket connection closed');
+                // End the current bot message div
+                botMessageDiv = null;
+            };
+        }
+
+        function handleKeyDown(event) {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                submitForm();
+            }
+        }
+
+        function addMessage(sender, text, className) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message ' + className;
+            messageDiv.textContent = sender + ": " + text;
+            conversationDiv.appendChild(messageDiv);
+            scrollToBottom();
+        }
+
+        function scrollToBottom() {
+            conversationDiv.scrollTop = conversationDiv.scrollHeight;
+        }
+    </script>
+</body>
+</html>
