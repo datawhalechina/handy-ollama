@@ -32,9 +32,9 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 - [ ] Ollama 在 LangChain 中的使用
     - [ ] 在 Python 中的集成
     - [ ] 在 JavaScript 中的集成
-- [ ] Ollama 可视化界面部署
-    - [ ] 使用 FastAPI 部署 Ollama 可视化对话界面
-    - [ ] 使用 WebUI 部署 Ollama 可视化对话界面
+- [x] Ollama 可视化界面部署
+    - [x] 使用 FastAPI 部署 Ollama 可视化对话界面 @AXYZdong
+    - [x] 使用 WebUI 部署 Ollama 可视化对话界面 @AXYZdong
 - [ ] 应用案例
     - [ ] 搭建本地 RAG 应用
     - [ ] 搭建本地的 AI Copilot 编程助手
