@@ -18,7 +18,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 
 ## 项目规划
 ### 目录（持续更新中...）
-- [ ] Ollama 介绍
+- [x] Ollama 介绍 @AXYZdong
 - [ ] Ollama 安装与配置
   - [ ] macOS
   - [ ] Windows
