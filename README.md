@@ -1,3 +1,5 @@
+![动手学Ollama](images/header.svg)
+
 # 🦙💻 self-ollama
 Learning to deploy Ollama with hands-on practice, making the deployment of large language models accessible to everyone!
 
@@ -18,7 +20,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 
 ## 项目规划
 ### 目录（持续更新中...）
-- [x] Ollama 介绍 @AXYZdong
+- [x] [Ollama 介绍](docs/C1/1.%20Ollama介绍.md) @AXYZdong
 - [ ] Ollama 安装与配置
   - [ ] macOS
   - [ ] Windows
@@ -33,8 +35,8 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
     - [ ] 在 Python 中的集成
     - [ ] 在 JavaScript 中的集成
 - [x] Ollama 可视化界面部署
-    - [x] 使用 FastAPI 部署 Ollama 可视化对话界面 @AXYZdong
-    - [x] 使用 WebUI 部署 Ollama 可视化对话界面 @AXYZdong
+    - [x] [使用 FastAPI 部署 Ollama 可视化对话界面](docs/C6/1.%20使用%20FastAPI%20部署%20Ollama%20可视化对话界面.md) @AXYZdong
+    - [x] [使用 WebUI 部署 Ollama 可视化对话界面](docs/C6/2.%20使用%20WebUI%20部署%20Ollama%20可视化对话界面.md) @AXYZdong
 - [ ] 应用案例
     - [ ] 搭建本地 RAG 应用
     - [ ] 搭建本地的 AI Copilot 编程助手
