@@ -1,6 +1,6 @@
 ![动手学Ollama](images/header.svg)
 
-# 🦙💻 self-ollama
+# 🦙💻 handy-ollama
 Learning to deploy Ollama with hands-on practice, making the deployment of large language models accessible to everyone!
 
 ## 项目简介
