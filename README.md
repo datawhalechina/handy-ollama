@@ -20,24 +20,24 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 
 ## 项目规划
 ### 目录（持续更新中...）
-- [x] [Ollama 介绍](docs/C1/1.%20Ollama介绍.md) @AXYZdong
-- [ ] Ollama 安装与配置
+- [x] 1 [Ollama 介绍](docs/C1/1.%20Ollama介绍.md) @[友东](https://github.com/AXYZdong)
+- [ ] 2 Ollama 安装与配置
   - [ ] macOS
   - [ ] Windows
   - [ ] Linux
   - [ ] Docker
-- [ ] 自定义导入模型
-- [ ] Ollama REST API
+- [ ] 3 自定义导入模型
+- [ ] 4 Ollama REST API
   - [ ] Ollama API 使用指南
   - [ ] 在 Python 中使用 Ollama API
   - [ ] 在 Java 中使用 Ollama API
-- [ ] Ollama 在 LangChain 中的使用
-    - [ ] 在 Python 中的集成
-    - [ ] 在 JavaScript 中的集成
-- [x] Ollama 可视化界面部署
-    - [x] [使用 FastAPI 部署 Ollama 可视化对话界面](docs/C6/1.%20使用%20FastAPI%20部署%20Ollama%20可视化对话界面.md) @AXYZdong
-    - [x] [使用 WebUI 部署 Ollama 可视化对话界面](docs/C6/2.%20使用%20WebUI%20部署%20Ollama%20可视化对话界面.md) @AXYZdong
-- [ ] 应用案例
+- [x] 5 Ollama 在 LangChain 中的使用
+    - [x] [在 Python 中的集成](docs/C5/1.%20Ollama在LangChain中的使用%20-%20Python集成.md) @[鑫民](https://github.com/fancyboi999)
+    - [x] [在 JavaScript 中的集成](docs/C5/2.%20Ollama在LangChain中的使用%20-%20JavaScript集成.md) @[鑫民](https://github.com/fancyboi999)
+- [x] 6 Ollama 可视化界面部署
+    - [x] [使用 FastAPI 部署 Ollama 可视化对话界面](docs/C6/1.%20使用%20FastAPI%20部署%20Ollama%20可视化对话界面.md) @[友东](https://github.com/AXYZdong)
+    - [x] [使用 WebUI 部署 Ollama 可视化对话界面](docs/C6/2.%20使用%20WebUI%20部署%20Ollama%20可视化对话界面.md) @[友东](https://github.com/AXYZdong)
+- [ ] 7 应用案例
     - [ ] 搭建本地 RAG 应用
     - [ ] 搭建本地的 AI Copilot 编程助手
     - [ ] Dify 接入 Ollama 部署的本地模型
