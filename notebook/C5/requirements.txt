@@ -1,0 +1,5 @@
+langchain-ollama
+langchain
+langchain-community
+Pillow
+faiss-cpu
