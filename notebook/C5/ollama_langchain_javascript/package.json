@@ -1,0 +1,19 @@
+{
+  "name": "handy-ollama",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.2.25",
+    "@langchain/core": "^0.2.21",
+    "@langchain/ollama": "^0.0.3",
+    "zod": "^3.23.8"
+  }
+}
