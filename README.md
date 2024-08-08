@@ -41,3 +41,12 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
     - [ ] 搭建本地 RAG 应用
     - [ ] 搭建本地的 AI Copilot 编程助手
     - [ ] Dify 接入 Ollama 部署的本地模型
+
+
+## 致谢
+
+特别感谢以下为教程做出贡献的同学！
+
+<a href="https://github.com/AXYZdong/handy-ollama/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AXYZdong/handy-ollama" />
+</a>
