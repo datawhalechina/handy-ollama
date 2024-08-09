@@ -7,13 +7,14 @@
 │   ├── Modelfile      
 │   └── Qwen-0.5B.Q3_K_M.gguf 
 ├── 2.safetensors导入/
-│   ├── model        
-│   │   ├── model.safetensors  
+│   ├── llama-3-8b-bnb-4bit/        
 │   ├── main.ipynb    
+│   ├── Modelfile      
 ├── 3.模型直接导入/
-│   ├── llama.cpp    
-│   ├── Qwen-0.5b    
-│   │   ├── main.ipynb  
+│   ├── llama.cpp/    
+│   ├── Qwen-0.5b/    
+│   ├── main.ipynb     
+│   ├── Modelfile      
 │   └── Qwen_instruct_0.5b.gguf  
 └── 4.自定义Prompt实践/
     ├── main.ipynb   
