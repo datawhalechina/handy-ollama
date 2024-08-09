@@ -1,7 +1,7 @@
 import { Ollama } from "@langchain/community/llms/ollama";
 import * as fs from "node:fs/promises";
 
-const imageData = await fs.readFile("../../../docs/images/img-5-1-4.png"); // 可以替换为你想询问的图片
+const imageData = await fs.readFile("../../../docs/images/C5-1-4.png"); // 可以替换为你想询问的图片
 const model = new Ollama({
   model: "llava",
   baseUrl: "http://127.0.0.1:11434",
