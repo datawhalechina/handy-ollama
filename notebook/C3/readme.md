@@ -27,4 +27,4 @@
 - `Qwen-0.5B.Q3_K_M.gguf`：GGUF 模型文件
 - `model.safetensors`：safeTensor 模型文件
 - `llama.cpp`：工具包
--` Qwen-0.5b`：模型文件夹
+- `Qwen-0.5b`：模型文件夹
