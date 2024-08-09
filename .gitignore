@@ -1,0 +1,8 @@
+# develop
+.idea/
+.vscode/
+
+# cache
+__pycache__
+*.pyc
+.ipynb_checkpoints/
