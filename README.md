@@ -23,9 +23,9 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 - [x] 1 [Ollama 介绍](docs/C1/1.%20Ollama介绍.md) @[友东](https://github.com/AXYZdong)
 - [ ] 2 Ollama 安装与配置 
   - [ ] macOS
-  - [ ] Windows @[Yuki](https://github.com/fuyueagain)
-  - [ ] Linux @[Yuki](https://github.com/fuyueagain)
-  - [ ] Docker @[Yuki](https://github.com/fuyueagain)
+  - [x] [Windows](docs/C2/2.%20Ollama在Windows下的安装与配置.md) @[Yuki](https://github.com/fuyueagain)
+  - [x] [Linux](docs/C2/3.%20Ollama在Linux下的安装与配置.md) @[Yuki](https://github.com/fuyueagain)
+  - [x] [Docker](docs/C2/4.%20Ollama在Docker下的安装与配置.md) @[Yuki](https://github.com/fuyueagain)
 - [x] 3 [自定义导入模型](docs/C3/1.%20自定义导入模型.md) @[杨卓](https://github.com/little1d)
 - [ ] 4 Ollama REST API
   - [ ] Ollama API 使用指南
