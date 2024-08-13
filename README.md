@@ -1,6 +1,6 @@
 ![动手学Ollama](images/header.svg)
 
-# 🦙💻 handy-ollama
+# 💻 handy-ollama 🦙
 Learning to deploy Ollama with hands-on practice, making the deployment of large language models accessible to everyone!
 
 ## 项目简介
@@ -21,16 +21,16 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 ## 项目规划
 ### 目录（持续更新中...）
 - [x] 1 [Ollama 介绍](docs/C1/1.%20Ollama介绍.md) @[友东](https://github.com/AXYZdong)
-- [ ] 2 Ollama 安装与配置 
-  - [ ] macOS
+- [x] 2 Ollama 安装与配置 
+  - [x] [macOS](docs/C2/1.%20Ollama在macOS下的安装与配置.md) @[天奥](https://github.com/lta155)
   - [x] [Windows](docs/C2/2.%20Ollama在Windows下的安装与配置.md) @[Yuki](https://github.com/fuyueagain)
   - [x] [Linux](docs/C2/3.%20Ollama在Linux下的安装与配置.md) @[Yuki](https://github.com/fuyueagain)
   - [x] [Docker](docs/C2/4.%20Ollama在Docker下的安装与配置.md) @[Yuki](https://github.com/fuyueagain)
 - [x] 3 [自定义导入模型](docs/C3/1.%20自定义导入模型.md) @[杨卓](https://github.com/little1d)
-- [ ] 4 Ollama REST API
-  - [ ] Ollama API 使用指南
-  - [ ] 在 Python 中使用 Ollama API
-  - [ ] 在 Java 中使用 Ollama API
+- [x] 4 Ollama REST API
+  - [x] [Ollama API 使用指南](docs/C4/1.%20Ollama%20API%20使用指南.md)@[林通](https://github.com/kjlintong)
+  - [x] [在 Python 中使用 Ollama API](docs/C4/2.%20在%20Python%20中使用%20Ollama%20API.md) @[春阳](https://github.com/ChunyangChai)
+  - [x] [在 Java 中使用 Ollama API](docs/C4/4.%20在%20Java%20中使用%20Ollama%20API.md) @[林通](https://github.com/kjlintong)
 - [x] 5 Ollama 在 LangChain 中的使用
     - [x] [在 Python 中的集成](docs/C5/1.%20Ollama在LangChain中的使用%20-%20Python集成.md) @[鑫民](https://github.com/fancyboi999)
     - [x] [在 JavaScript 中的集成](docs/C5/2.%20Ollama在LangChain中的使用%20-%20JavaScript集成.md) @[鑫民](https://github.com/fancyboi999)
