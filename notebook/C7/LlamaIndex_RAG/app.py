@@ -5,17 +5,15 @@ from llama_index.llms.ollama import Ollama
 from llama_index.core.memory import ChatMemoryBuffer
 import os
 import tempfile
-import shutil
-import time
+import hashlib
 
 # OLLAMA_NUM_PARALLEL：同时处理单个模型的多个请求
 # OLLAMA_MAX_LOADED_MODELS：同时加载多个模型
-
 os.environ['OLLAMA_NUM_PARALLEL'] = '2'
 os.environ['OLLAMA_MAX_LOADED_MODELS'] = '2'
 
 
-# Function to handle multiple file uploads
+# Function to handle file upload
 def handle_file_upload(uploaded_files):
     if uploaded_files:
         temp_dir = tempfile.mkdtemp()
@@ -27,9 +25,13 @@ def handle_file_upload(uploaded_files):
     return None
 
 
-# Function to reload data from uploaded files
-def reload_data(directory):
-    return SimpleDirectoryReader(directory).load_data()
+# Function to calculate a hash for the uploaded files
+def get_files_hash(files):
+    hash_md5 = hashlib.md5()
+    for file in files:
+        file_bytes = file.read()
+        hash_md5.update(file_bytes)
+    return hash_md5.hexdigest()
 
 
 # Function to prepare generation configuration
@@ -49,93 +51,103 @@ def prepare_generation_config():
 
 # Function to clear chat history
 def clear_chat_history():
-    st.session_state.messages = []
+    st.session_state.messages = [{"role": "assistant", "content": "你好，我是你的助手，你需要什么帮助吗？"}]
 
 
-def get_model(_document):
-    with st.spinner('Loading embedding model...'):
-        Settings.embed_model = OllamaEmbedding(model_name="nomic-embed-text")
-        time.sleep(1)
+# File upload in the sidebar
+st.sidebar.header("Upload Data")
+uploaded_files = st.sidebar.file_uploader("Upload your data files:", type=["txt", "pdf", "docx"],
+                                          accept_multiple_files=True)
 
-    with st.spinner('Loading language model...'):
-        generation_config = prepare_generation_config()
-        Settings.llm = Ollama(model="llama3.1", request_timeout=360.0,
-                              num_ctx=generation_config['num_ctx'],
-                              temperature=generation_config['temperature'])
-        time.sleep(1)
+generation_config = prepare_generation_config()
 
-    with st.spinner('Building index...'):
-        index = VectorStoreIndex.from_documents(_document)
-        time.sleep(1)
 
-    st.empty()  # Clear the info and success messages
+# Function to initialize models
+@st.cache_resource
+def init_models():
+    embed_model = OllamaEmbedding(model_name="nomic-embed-text")
+    Settings.embed_model = embed_model
 
-    return index
+    llm = Ollama(model="llama3.1", request_timeout=360.0,
+                 num_ctx=generation_config['num_ctx'],
+                 temperature=generation_config['temperature'])
+    Settings.llm = llm
+
+    documents = SimpleDirectoryReader(st.session_state['temp_dir']).load_data()
+    index = VectorStoreIndex.from_documents(documents)
+
+    memory = ChatMemoryBuffer.from_defaults(token_limit=4000)
+    chat_engine = index.as_chat_engine(
+        chat_mode="context",
+        memory=memory,
+        system_prompt="You are a chatbot, able to have normal interactions.",
+    )
+
+    return chat_engine
 
 
 # Streamlit application
-def main():
-    st.title("💻 Local RAG Chatbot 🦙")
-    st.caption("🚀 A RAG chatbot powered by LlamaIndex.")
+st.title("💻 Local RAG Chatbot 🤖")
+st.caption("🚀 A RAG chatbot powered by LlamaIndex and Ollama 🦙.")
 
-    # File upload in the sidebar
-    st.sidebar.header("Upload Data")
-    uploaded_files = st.sidebar.file_uploader("Upload your data files:", type=["txt", "pdf", "docx"],
-                                              accept_multiple_files=True)
+# Initialize hash for the current uploaded files
+current_files_hash = get_files_hash(uploaded_files) if uploaded_files else None
 
+# Detect if files have changed and init models
+if 'files_hash' in st.session_state:
+    if st.session_state['files_hash'] != current_files_hash:
+        st.session_state['files_hash'] = current_files_hash
+        if 'chat_engine' in st.session_state:
+            del st.session_state['chat_engine']
+            st.cache_resource.clear()
+        if uploaded_files:
+            st.session_state['temp_dir'] = handle_file_upload(uploaded_files)
+            st.sidebar.success("Files uploaded successfully.")
+            if 'chat_engine' not in st.session_state:
+                st.session_state['chat_engine'] = init_models()
+        else:
+            st.sidebar.error("No uploaded files.")
+else:
     if uploaded_files:
-        temp_dir = handle_file_upload(uploaded_files)
-        if temp_dir:
-            documents = reload_data(temp_dir)
-            st.sidebar.success("Files uploaded and data loaded.")
-            index = get_model(documents)
-            shutil.rmtree(temp_dir)  # Clean up temporary directory
+        st.session_state['files_hash'] = current_files_hash
+        st.session_state['temp_dir'] = handle_file_upload(uploaded_files)
+        st.sidebar.success("Files uploaded successfully.")
+        if 'chat_engine' not in st.session_state:
+            st.session_state['chat_engine'] = init_models()
+    else:
+        st.sidebar.error("No uploaded files.")
 
-            # Initialize chat history
-            if 'messages' not in st.session_state:
-                st.session_state.messages = []
+# Initialize chat history
+if 'messages' not in st.session_state:
+    st.session_state.messages = [{"role": "assistant", "content": "你好，我是你的助手，你需要什么帮助吗？"}]
 
-            # Display chat messages from history
-            for message in st.session_state.messages:
-                with st.chat_message(message['role'], avatar=message.get('avatar')):
-                    st.markdown(message['content'])
+# Display chat messages from history
+for message in st.session_state.messages:
+    with st.chat_message(message['role'], avatar=message.get('avatar')):
+        st.markdown(message['content'])
 
-            # Display chat input field at the bottom
-            if prompt := st.chat_input("Ask a question about Datawhale:"):
+# Display chat input field at the bottom
+if prompt := st.chat_input("Ask a question about Datawhale:"):
 
-                with st.spinner('Setting up chat engine...'):
-                    memory = ChatMemoryBuffer.from_defaults(token_limit=4000)
-                    chat_engine = index.as_chat_engine(
-                        chat_mode="context",
-                        memory=memory,
-                        system_prompt="You are a chatbot, able to have normal interactions.",
-                    )
-                    time.sleep(1)
+    with st.chat_message('user'):
+        st.markdown(prompt)
 
-                with st.chat_message('user'):
-                    st.markdown(prompt)
+    # Generate response
+    response = st.session_state['chat_engine'].stream_chat(prompt)
+    with st.chat_message('assistant'):
+        message_placeholder = st.empty()
+        res = ''
+        for token in response.response_gen:
+            res += token
+            message_placeholder.markdown(res + '▌')
+        message_placeholder.markdown(res)
 
-                # Generate response
-                # response = chat_engine.chat(prompt)
-                response = chat_engine.stream_chat(prompt)
-                with st.chat_message('assistant'):
-                    message_placeholder = st.empty()
-                    res = ''
-                    for token in response.response_gen:
-                        res += token
-                        message_placeholder.markdown(res + '▌')
-                    message_placeholder.markdown(res)
-
-                # Add messages to history
-                st.session_state.messages.append({
-                    'role': 'user',
-                    'content': prompt,
-                })
-                st.session_state.messages.append({
-                    'role': 'assistant',
-                    'content': response,
-                })
-
-
-if __name__ == "__main__":
-    main()
+    # Add messages to history
+    st.session_state.messages.append({
+        'role': 'user',
+        'content': prompt,
+    })
+    st.session_state.messages.append({
+        'role': 'assistant',
+        'content': response,
+    })
