@@ -22,7 +22,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 
 ## 项目规划
 ### 目录（持续更新中...）
-- [x] 1 [Ollama 介绍](C1/1.%20Ollama介绍.md) @[友东](https://github.com/AXYZdong)
+- [x] 1 [Ollama 介绍](C1/1.%20Ollama%20介绍.md) @[友东](https://github.com/AXYZdong)
 - [x] 2 Ollama 安装与配置 
   - [x] [macOS](C2/1.%20Ollama%20在%20macOS%20下的安装与配置.md) @[天奥](https://github.com/lta155)
   - [x] [Windows](C2/2.%20Ollama%20在%20Windows%20下的安装与配置.md) @[Yuki](https://github.com/fuyueagain)
