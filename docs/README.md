@@ -30,7 +30,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
   - [x] [Docker](C2/4.%20Ollama%20在%20Docker%20下的安装与配置.md) @[Yuki](https://github.com/fuyueagain)
 - [x] 3 [自定义导入模型](C3/1.%20自定义导入模型.md) @[杨卓](https://github.com/little1d)
 - [x] 4 Ollama REST API
-  - [x] [Ollama API 使用指南](C4/1.%20Ollama%20API%20使用指南.md)@[林通](https://github.com/kjlintong) @[春阳](https://github.com/ChunyangChai)
+  - [x] [Ollama API 使用指南](C4/1.%20Ollama%20API%20使用指南.md) @[林通](https://github.com/kjlintong) @[春阳](https://github.com/ChunyangChai)
   - [x] [在 Python 中使用 Ollama API](C4/2.%20在%20Python%20中使用%20Ollama%20API.md) @[春阳](https://github.com/ChunyangChai)
   - [x] [在 Java 中使用 Ollama API](C4/3.%20在%20Java%20中使用%20Ollama%20API.md) @[林通](https://github.com/kjlintong)
 - [x] 5 Ollama 在 LangChain 中的使用
