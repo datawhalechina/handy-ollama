@@ -30,9 +30,10 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
   - [x] [Docker](C2/4.%20Ollama%20在%20Docker%20下的安装与配置.md) @[Yuki](https://github.com/fuyueagain)
 - [x] 3 [自定义导入模型](C3/1.%20自定义导入模型.md) @[杨卓](https://github.com/little1d)
 - [x] 4 Ollama REST API
-  - [x] [Ollama API 使用指南](C4/1.%20Ollama%20API%20使用指南.md) @[林通](https://github.com/kjlintong) @[春阳](https://github.com/ChunyangChai)
-  - [x] [在 Python 中使用 Ollama API](C4/2.%20在%20Python%20中使用%20Ollama%20API.md) @[春阳](https://github.com/ChunyangChai)
+  - [x] [Ollama API 使用指南](C4/1.%20Ollama%20API%20使用指南.md) @[林通](https://github.com/kjlintong) @[春阳](https://github.com/Springff)
+  - [x] [在 Python 中使用 Ollama API](C4/2.%20在%20Python%20中使用%20Ollama%20API.md) @[春阳](https://github.com/Springff)
   - [x] [在 Java 中使用 Ollama API](C4/3.%20在%20Java%20中使用%20Ollama%20API.md) @[林通](https://github.com/kjlintong)
+  - [x] [在 JavaScript 中使用 Ollama API](C4/4.%20在%20JavaScript%20中使用%20Ollama%20API.md) @[春阳](https://github.com/Springff)
 - [x] 5 Ollama 在 LangChain 中的使用
     - [x] [在 Python 中的集成](C5/1.%20Ollama%20在%20LangChain%20中的使用%20-%20Python%20集成.md) @[鑫民](https://github.com/fancyboi999)
     - [x] [在 JavaScript 中的集成](C5/2.%20Ollama%20在%20LangChain%20中的使用%20-%20JavaScript%20集成.md) @[鑫民](https://github.com/fancyboi999)
@@ -41,7 +42,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
     - [x] [使用 WebUI 部署 Ollama 可视化对话界面](C6/2.%20使用%20WebUI%20部署%20Ollama%20可视化对话界面.md) @[友东](https://github.com/AXYZdong)
 - [ ] 7 应用案例
     - [ ] 搭建本地的 AI Copilot 编程助手
-    - [ ] Dify 接入 Ollama 部署的本地模型
+    - [x] [Dify 接入 Ollama 部署的本地模型](C7/2.%20Dify%20接入%20Ollama%20部署的本地模型.md) @[春阳](https://github.com/Springff)
     - [x] 使用 LangChain 搭建本地 RAG 应用 @[舒凡](https://github.com/Tsumugii24)
 
 
