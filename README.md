@@ -47,7 +47,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
     - [x] [使用 FastAPI 部署 Ollama 可视化对话界面](docs/C6/1.%20使用%20FastAPI%20部署%20Ollama%20可视化对话界面.md) @[友东](https://github.com/AXYZdong)
     - [x] [使用 WebUI 部署 Ollama 可视化对话界面](docs/C6/2.%20使用%20WebUI%20部署%20Ollama%20可视化对话界面.md) @[友东](https://github.com/AXYZdong)
 - [ ] 7 应用案例
-    - [ ] 搭建本地的 AI Copilot 编程助手
+    - [x] [搭建本地的 AI Copilot 编程助手](docs/C7/1.%20搭建本地的%20AI%20Copilot%20编程助手.md) @[越](https://github.com/rainsubtime)
     - [x] [Dify 接入 Ollama 部署的本地模型](docs/C7/2.%20Dify%20接入%20Ollama%20部署的本地模型.md) @[春阳](https://github.com/Springff)
     - [x] 使用 LangChain 搭建本地 RAG 应用 @[舒凡](https://github.com/Tsumugii24)
 

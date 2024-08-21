@@ -14,8 +14,9 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
       notebook ------------------ Notebook 源代码文件以及部分 Python、Java 和 JavaScript 源文件 
       images -------------------- 图片
 
-## 立项理由
-随着大模型的飞速发展，市面上出现了越来越多的开源大模型，但是许多模型的部署需要利用 GPU 资源，如何让大模型时代的红利普惠到每一个人，让每一个人都可以部署属于自己的大模型。Ollama 是一个开源的大语言部署服务工具，只需 CPU 即可部署大模型。我们希望通过动手学 Ollama 这一开源教程，帮助学习者快速上手 Ollama ，让每一位大模型爱好者、学习者以及开发者都能在本地部署自己的大模型，进而开发一些大模型应用，让大模型赋能千行百业！
+## 项目亮点
+随着大模型的飞速发展，市面上出现了越来越多的开源大模型，但是许多模型的部署需要利用 GPU 资源，如何让大模型时代的红利普惠到每一个人，让每一个人都可以部署属于自己的大模型。Ollama 是一个开源的大语言部署服务工具，只需 CPU 即可部署大模型。本项目旨在使用 CPU 部署本地大模型，虽然目前已经有很多 LLM 相关的教程，但是这些教程中模型基本上都需要 GPU 资源，这对于很多资源受限的学习者不是很友好。因此，本项目通过动手学 Ollama ，帮助学习者快速上手本地 CPU 部署大模型。我们希望通过动手学 Ollama 这一开源教程，帮助学习者快速上手 Ollama ，让每一位大模型爱好者、学习者以及开发者都能在本地部署自己的大模型，进而开发一些大模型应用，让大模型赋能千行百业！
+
 
 ## 项目受众
 - 希望不受 GPU 资源限制，在本地运行大模型；
@@ -23,8 +24,6 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 - 希望在本地部署大模型，开发大模型应用；
 - 希望在本地管理大模型，让本地模型安全可靠。
 
-## 项目亮点
-本项目旨在使用 CPU 部署本地大模型，虽然目前已经有很多 LLM 相关的教程，但是这些教程中模型基本上都需要 GPU 资源，这对于很多资源受限的学习者不是很友好。因此，本项目通过动手学 Ollama ，帮助学习者快速上手本地 CPU 部署大模型。
 
 ## 项目规划
 ### 目录（持续更新中...）
@@ -47,7 +46,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
     - [x] [使用 FastAPI 部署 Ollama 可视化对话界面](C6/1.%20使用%20FastAPI%20部署%20Ollama%20可视化对话界面.md) @[友东](https://github.com/AXYZdong)
     - [x] [使用 WebUI 部署 Ollama 可视化对话界面](C6/2.%20使用%20WebUI%20部署%20Ollama%20可视化对话界面.md) @[友东](https://github.com/AXYZdong)
 - [ ] 7 应用案例
-    - [ ] 搭建本地的 AI Copilot 编程助手
+    - [x] [搭建本地的 AI Copilot 编程助手](C7/1.%20搭建本地的%20AI%20Copilot%20编程助手.md) @[越](https://github.com/rainsubtime)
     - [x] [Dify 接入 Ollama 部署的本地模型](C7/2.%20Dify%20接入%20Ollama%20部署的本地模型.md) @[春阳](https://github.com/Springff)
     - [x] 使用 LangChain 搭建本地 RAG 应用 @[舒凡](https://github.com/Tsumugii24)
 
