@@ -11,6 +11,7 @@
         * [4.2 在 Python 中使用 Ollama API](C4/2.%20在%20Python%20中使用%20Ollama%20API.md)
         * [4.3 在 Java 中使用 Ollama API](C4/3.%20在%20Java%20中使用%20Ollama%20API.md)
         * [4.4 在 JavaScript 中使用 Ollama API](C4/4.%20在%20JavaScript%20中使用%20Ollama%20API.md)
+        * [4.5 在 C++ 中使用 Ollama API](C4/5.%20在%20C++%20中使用%20Ollama%20API.md)
     * 第 5 章 Ollama 在 LangChain 中的使用
         * [5.1 在 Python 中的集成](C5/1.%20Ollama%20在%20LangChain%20中的使用%20-%20Python%20集成.md)
         * [5.2 在 JavaScript 中的集成](C5/2.%20Ollama%20在%20LangChain%20中的使用%20-%20JavaScript%20集成.md)
@@ -20,4 +21,5 @@
     * 第 7 章 应用案例
         * [7.1 搭建本地的 AI Copilot 编程助手](C7/1.%20搭建本地的%20AI%20Copilot%20编程助手.md)
         * [7.2 Dify 接入 Ollama 部署的本地模型](C7/2.%20Dify%20接入%20Ollama%20部署的本地模型.md)
-        * 7.3 使用 LangChain 搭建本地 RAG 应用
+        * [7.3 使用 LangChain 搭建本地 RAG 应用](C7/3.%20使用%20LangChain%20搭建本地%20RAG%20应用.md)
+        * [7.4 使用 LlamaIndex 搭建本地 RAG 应用](C7/4.%20使用%20LlamaIndex%20搭建本地%20RAG%20应用.md)
