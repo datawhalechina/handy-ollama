@@ -43,6 +43,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
   - [x] [在 Python 中使用 Ollama API](docs/C4/2.%20在%20Python%20中使用%20Ollama%20API.md) @[春阳](https://github.com/Springff)
   - [x] [在 Java 中使用 Ollama API](docs/C4/3.%20在%20Java%20中使用%20Ollama%20API.md) @[林通](https://github.com/kjlintong)
   - [x] [在 JavaScript 中使用 Ollama API](docs/C4/4.%20在%20JavaScript%20中使用%20Ollama%20API.md) @[春阳](https://github.com/Springff)
+  - [x] [在 C++ 中使用 Ollama API](docs/C4/5.%20在%20C++%20中使用%20Ollama%20API.md) @[林通](https://github.com/kjlintong)
 - [x] 5 Ollama 在 LangChain 中的使用
     - [x] [在 Python 中的集成](docs/C5/1.%20Ollama%20在%20LangChain%20中的使用%20-%20Python%20集成.md) @[鑫民](https://github.com/fancyboi999)
     - [x] [在 JavaScript 中的集成](docs/C5/2.%20Ollama%20在%20LangChain%20中的使用%20-%20JavaScript%20集成.md) @[鑫民](https://github.com/fancyboi999)
@@ -52,7 +53,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 - [ ] 7 应用案例
     - [x] [搭建本地的 AI Copilot 编程助手](docs/C7/1.%20搭建本地的%20AI%20Copilot%20编程助手.md) @[越](https://github.com/rainsubtime)
     - [x] [Dify 接入 Ollama 部署的本地模型](docs/C7/2.%20Dify%20接入%20Ollama%20部署的本地模型.md) @[春阳](https://github.com/Springff)
-    - [x] 使用 LangChain 搭建本地 RAG 应用 @[舒凡](https://github.com/Tsumugii24)
+    - [x] [使用 LangChain 搭建本地 RAG 应用](./notebook/C7/LangChain_RAG/使用LangChain搭建本地RAG应用.ipynb) @[舒凡](https://github.com/Tsumugii24)
 
 
 ## 致谢
