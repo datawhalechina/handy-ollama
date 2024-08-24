@@ -53,8 +53,8 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 - [ ] 7 应用案例
     - [x] [搭建本地的 AI Copilot 编程助手](docs/C7/1.%20搭建本地的%20AI%20Copilot%20编程助手.md) @[越](https://github.com/rainsubtime)
     - [x] [Dify 接入 Ollama 部署的本地模型](docs/C7/2.%20Dify%20接入%20Ollama%20部署的本地模型.md) @[春阳](https://github.com/Springff)
-    - [x] [使用 LangChain 搭建本地 RAG 应用](./notebook/C7/LangChain_RAG/使用LangChain搭建本地RAG应用.ipynb) @[舒凡](https://github.com/Tsumugii24)
-    - [x] [使用 LlamaIndex 搭建本地 RAG 应用](./notebook/C7/LlamaIndex_RAG/使用LlamaIndex搭建本地RAG应用.ipynb) @[友东](https://github.com/AXYZdong)
+    - [x] [使用 LangChain 搭建本地 RAG 应用](docs/C7/3.%20使用%20LangChain%20搭建本地%20RAG%20应用.md) @[舒凡](https://github.com/Tsumugii24)
+    - [x] [使用 LlamaIndex 搭建本地 RAG 应用](docs/C7/4.%20使用%20LlamaIndex%20搭建本地%20RAG%20应用.md) @[友东](https://github.com/AXYZdong)
 
 
 ## 致谢
