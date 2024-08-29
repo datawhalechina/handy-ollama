@@ -48,9 +48,13 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
     - [x] [Dify 接入 Ollama 部署的本地模型](C7/2.%20Dify%20接入%20Ollama%20部署的本地模型.md) @[春阳](https://github.com/Springff)
     - [x] [使用 LangChain 搭建本地 RAG 应用](C7/3.%20使用%20LangChain%20搭建本地%20RAG%20应用.md) @[舒凡](https://github.com/Tsumugii24)
     - [x] [使用 LlamaIndex 搭建本地 RAG 应用](C7/4.%20使用%20LlamaIndex%20搭建本地%20RAG%20应用.md) @[友东](https://github.com/AXYZdong)
+    - [x] [使用 LangChain 实现本地 Agent](C7/5.%20使用%20LangChain%20实现本地%20Agent.md) @[友东](https://github.com/AXYZdong)
+    - [x] [使用 LlamaIndex 实现本地 Agent](C7/6.%20使用%20LlamaIndex%20实现本地%20Agent.md) @[友东](https://github.com/AXYZdong)
 
 
 ## 致谢
+
+Ollama 官方仓库：https://github.com/ollama/ollama
 
 特别感谢以下为教程做出贡献的同学！
 
