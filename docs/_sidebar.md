@@ -15,7 +15,7 @@
     * 第 5 章 Ollama 在 LangChain 中的使用
         * [5.1 在 Python 中的集成](C5/1.%20Ollama%20在%20LangChain%20中的使用%20-%20Python%20集成.md)
         * [5.2 在 JavaScript 中的集成](C5/2.%20Ollama%20在%20LangChain%20中的使用%20-%20JavaScript%20集成.md)
-    * 第 6 章 Ollama可视化界面部署
+    * 第 6 章 Ollama 可视化界面部署
         * [6.1 使用 FastAPI 部署 Ollama 可视化对话界面](C6/1.%20使用%20FastAPI%20部署%20Ollama%20可视化对话界面.md)
         * [6.2 使用 WebUI 部署 Ollama 可视化对话界面](C6/2.%20使用%20WebUI%20部署%20Ollama%20可视化对话界面.md)
     * 第 7 章 应用案例
