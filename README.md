@@ -59,6 +59,8 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 
 ## 致谢
 
+Ollama 官方仓库：https://github.com/ollama/ollama
+
 特别感谢以下为教程做出贡献的同学！
 
 <a href="https://github.com/AXYZdong/handy-ollama/graphs/contributors">
