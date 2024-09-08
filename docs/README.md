@@ -8,7 +8,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 
 本教程涵盖从基础入门到进阶使用的全方位内容，并通过实际应用案例深入理解和掌握大模型部署以及应用技术。我们的教程提供清晰的步骤和实用的技巧，无论是刚刚接触大模型部署的小白，还是有一定经验的开发者，都可以从零开始学习 Ollama ，实现本地部署大模型以及相关应用。
 
-项目地址：https://datawhalechina.github.io/handy-ollama/
+项目地址：https://github.com/datawhalechina/handy-ollama
 
 
 ## 项目亮点
