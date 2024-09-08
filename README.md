@@ -14,7 +14,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
       notebook ------------------ Notebook 源代码文件以及部分 Python、Java 和 JavaScript 源文件 
       images -------------------- 图片
 
-在线阅读：https://axyzdong.github.io/handy-ollama/
+在线阅读：https://datawhalechina.github.io/handy-ollama/
 
 
 ## 立项理由
