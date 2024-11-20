@@ -53,3 +53,15 @@
 - Woodworking
 
 ![Woodworking.png](Woodworking.png)
+
+- 3ollamas
+
+![3ollamas.png](3ollamas.png)
+
+- ollama_ibm
+
+![ollama_ibm.png](ollama_ibm.png)
+
+- ollama_vision
+
+![ollama_vision.png](ollama_vision.png)
