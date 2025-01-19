@@ -52,6 +52,10 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
     - [x] [使用 LlamaIndex 实现本地 Agent](C7/6.%20使用%20LlamaIndex%20实现本地%20Agent.md) @[友东](https://github.com/AXYZdong)
 
 
+**_注：所有标记（待更新）的内容，热忱欢迎对项目感兴趣的开发者们提交 pull request，让我们一起完善这个项目！_**
+
+**我们坚信：每一位对大模型充满热情的学习者，都应该有机会探索和实践。无论你的编程语言背景如何，无论计算资源如何受限，我们都希望能帮助你使用个人 PC 实现大模型部署。 让我们携手打破技术壁垒，共同开启 LLM 探索之旅！**
+
 ## 致谢
 
 Ollama 官方仓库：https://github.com/ollama/ollama
@@ -61,3 +65,7 @@ Ollama 官方仓库：https://github.com/ollama/ollama
 <a href="https://github.com/AXYZdong/handy-ollama/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=AXYZdong/handy-ollama" />
 </a>
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=datawhalechina/handy-ollama&type=Date)](https://star-history.com/#datawhalechina/handy-ollama&Date)
