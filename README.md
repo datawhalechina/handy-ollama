@@ -75,9 +75,10 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
     - [x] [使用 LlamaIndex 搭建本地 RAG 应用](docs/C7/4.%20使用%20LlamaIndex%20搭建本地%20RAG%20应用.md) @[友东](https://github.com/AXYZdong)
     - [x] [使用 LangChain 实现本地 Agent](docs/C7/5.%20使用%20LangChain%20实现本地%20Agent.md) @[友东](https://github.com/AXYZdong)
     - [x] [使用 LlamaIndex 实现本地 Agent](docs/C7/6.%20使用%20LlamaIndex%20实现本地%20Agent.md) @[友东](https://github.com/AXYZdong)
+    - [ ] 未完待续...
 
 
-**_注：所有标记（待更新）的内容，以及其他相关的内容，热忱欢迎感兴趣的开发者们 提出issue 或者 提交 pull request，让我们一起完善这个项目！_**
+**_注：所有标记（待更新）的内容，以及其他相关的内容，热忱欢迎感兴趣的开发者们 提出 issue 或者 提交 pull request，让我们一起完善这个项目！_**
 
 **想要深度参与的同学可以联系我们，我们会将你加入到项目的维护者中。**
 
