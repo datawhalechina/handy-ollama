@@ -8,6 +8,18 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 
 本教程涵盖从基础入门到进阶使用的全方位内容，并通过实际应用案例深入理解和掌握大模型部署以及应用技术。我们的教程提供清晰的步骤和实用的技巧，无论是刚刚接触大模型部署的小白，还是有一定经验的开发者，都可以从零开始学习 Ollama ，实现本地部署大模型以及相关应用。
 
+本项目主要内容：
+
+1. Ollama 介绍、安装和配置，包括在 macOS、Windows、Linux 和 Docker 下的安装与配置；
+2. Ollama 自定义导入模型，包括从 GGUF 导入、从 Pytorch 或 Safetensors 导入、由模型直接导入、自定义 Prompt；
+3. Ollama REST API，包括 Ollama API 使用指南、在 Python、Java、JavaScript 和 C++ 等语言中使用 Ollama API；
+4. Ollama 在 LangChain 中的使用，包括在 Python 和 JavaScript 中的集成；
+5. Ollama 可视化界面部署和应用案例，包括使用 FastAPI 和 WebUI 部署可视化对话界面，以及本地 RAG 应用、Agent 应用等。
+
+**热忱欢迎感兴趣的同学或者开发者们 提出 issue 或者 提交 pull request，让我们一起完善这个项目！**
+
+**我们坚信：每一位对大模型充满热情的学习者，都应该有机会探索和实践。无论你的编程语言背景如何，无论你的计算资源如何，我们都希望能帮助你使用个人 PC 实现大模型部署。 让我们携手打破技术壁垒，共同开启 LLM 探索之旅！**
+
 项目地址：https://github.com/datawhalechina/handy-ollama
 
 
@@ -37,10 +49,11 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
   - [x] [在 Java 中使用 Ollama API](C4/3.%20在%20Java%20中使用%20Ollama%20API.md) @[林通](https://github.com/kjlintong)
   - [x] [在 JavaScript 中使用 Ollama API](C4/4.%20在%20JavaScript%20中使用%20Ollama%20API.md) @[春阳](https://github.com/Springff)
   - [x] [在 C++ 中使用 Ollama API](C4/5.%20在%20C++%20中使用%20Ollama%20API.md) @[林通](https://github.com/kjlintong)
-  -  [ ]  在 C# 中使用 Ollama API （待更新）
-  -  [ ]  在 Rust 中使用 Ollama API（待更新）
-  -  [ ]  在 Ruby 中使用 Ollama API（待更新）
-  -  [ ]  在 R 中使用 Ollama API（待更新）
+  - [ ]  在 C# 中使用 Ollama API （待更新）
+  - [ ]  在 Go 中使用 Ollama API （待更新）
+  - [ ]  在 Rust 中使用 Ollama API（待更新）
+  - [ ]  在 Ruby 中使用 Ollama API（待更新）
+  - [ ]  在 R 中使用 Ollama API（待更新）
 - [x] 5 Ollama 在 LangChain 中的使用
     - [x] [在 Python 中的集成](C5/1.%20Ollama%20在%20LangChain%20中的使用%20-%20Python%20集成.md) @[鑫民](https://github.com/fancyboi999)
     - [x] [在 JavaScript 中的集成](C5/2.%20Ollama%20在%20LangChain%20中的使用%20-%20JavaScript%20集成.md) @[鑫民](https://github.com/fancyboi999)
@@ -56,9 +69,9 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
     - [x] [使用 LlamaIndex 实现本地 Agent](C7/6.%20使用%20LlamaIndex%20实现本地%20Agent.md) @[友东](https://github.com/AXYZdong)
 
 
-**_注：所有标记（待更新）的内容，以及其他相关的内容，热忱欢迎感兴趣的开发者们提交 pull request，让我们一起完善这个项目！_**
+**_注：所有标记（待更新）的内容，以及其他相关的内容，热忱欢迎感兴趣的开发者们 提出issue 或者 提交 pull request，让我们一起完善这个项目！_**
 
-**我们坚信：每一位对大模型充满热情的学习者，都应该有机会探索和实践。无论你的编程语言背景如何，无论计算资源如何受限，我们都希望能帮助你使用个人 PC 实现大模型部署。 让我们携手打破技术壁垒，共同开启 LLM 探索之旅！**
+**想要深度参与的同学可以联系我们，我们会将你加入到项目的维护者中。**
 
 ## 致谢
 
