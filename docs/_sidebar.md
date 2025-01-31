@@ -25,3 +25,4 @@
         * [7.4 使用 LlamaIndex 搭建本地 RAG 应用](C7/4.%20使用%20LlamaIndex%20搭建本地%20RAG%20应用.md)
         * [7.5 使用 LangChain 实现本地 Agent](C7/5.%20使用%20LangChain%20实现本地%20Agent.md)
         * [7.6 使用 LlamaIndex 实现本地 Agent](C7/6.%20使用%20LlamaIndex%20实现本地%20Agent.md)
+        * [7.7 使用 DeepSeek R1 和 Ollama 实现本地 RAG 应用](C7/7.%20使用%20DeepSeek%20R1%20和%20Ollama%20实现本地%20RAG%20应用.md)
