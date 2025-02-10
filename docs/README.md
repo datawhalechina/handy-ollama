@@ -36,7 +36,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
 
 ## 项目规划
 ### 目录（持续更新中...）
-- [x] 1 [Ollama 介绍](C1/1.%20Ollama%20介绍.md) @[友东](https://github.com/AXYZdong)
+- [x] 1 [Ollama 介绍](C1/1.%20Ollama%20介绍.md) @[Youdon](https://github.com/AXYZdong)
 - [x] 2 Ollama 安装与配置 
   - [x] [macOS](C2/1.%20Ollama%20在%20macOS%20下的安装与配置.md) @[天奥](https://github.com/lta155)
   - [x] [Windows](C2/2.%20Ollama%20在%20Windows%20下的安装与配置.md) @[Yuki](https://github.com/fuyueagain)
@@ -61,16 +61,16 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
     - [x] [在 Python 中的集成](C5/1.%20Ollama%20在%20LangChain%20中的使用%20-%20Python%20集成.md) @[鑫民](https://github.com/fancyboi999)
     - [x] [在 JavaScript 中的集成](C5/2.%20Ollama%20在%20LangChain%20中的使用%20-%20JavaScript%20集成.md) @[鑫民](https://github.com/fancyboi999)
 - [x] 6 Ollama 可视化界面部署
-    - [x] [使用 FastAPI 部署 Ollama 可视化对话界面](C6/1.%20使用%20FastAPI%20部署%20Ollama%20可视化对话界面.md) @[友东](https://github.com/AXYZdong)
-    - [x] [使用 WebUI 部署 Ollama 可视化对话界面](C6/2.%20使用%20WebUI%20部署%20Ollama%20可视化对话界面.md) @[友东](https://github.com/AXYZdong)
+    - [x] [使用 FastAPI 部署 Ollama 可视化对话界面](C6/1.%20使用%20FastAPI%20部署%20Ollama%20可视化对话界面.md) @[Youdon](https://github.com/AXYZdong)
+    - [x] [使用 WebUI 部署 Ollama 可视化对话界面](C6/2.%20使用%20WebUI%20部署%20Ollama%20可视化对话界面.md) @[Youdon](https://github.com/AXYZdong)
 - [ ] 7 应用案例
     - [x] [搭建本地的 AI Copilot 编程助手](C7/1.%20搭建本地的%20AI%20Copilot%20编程助手.md) @[越](https://github.com/rainsubtime)
     - [x] [Dify 接入 Ollama 部署的本地模型](C7/2.%20Dify%20接入%20Ollama%20部署的本地模型.md) @[春阳](https://github.com/Springff)
     - [x] [使用 LangChain 搭建本地 RAG 应用](C7/3.%20使用%20LangChain%20搭建本地%20RAG%20应用.md) @[舒凡](https://github.com/Tsumugii24)
-    - [x] [使用 LlamaIndex 搭建本地 RAG 应用](C7/4.%20使用%20LlamaIndex%20搭建本地%20RAG%20应用.md) @[友东](https://github.com/AXYZdong)
-    - [x] [使用 LangChain 实现本地 Agent](C7/5.%20使用%20LangChain%20实现本地%20Agent.md) @[友东](https://github.com/AXYZdong)
-    - [x] [使用 LlamaIndex 实现本地 Agent](C7/6.%20使用%20LlamaIndex%20实现本地%20Agent.md) @[友东](https://github.com/AXYZdong)
-    - [x] [使用 DeepSeek R1 和 Ollama 实现本地 RAG 应用](C7/7.%20使用%20DeepSeek%20R1%20和%20Ollama%20实现本地%20RAG%20应用.md) @[友东](https://github.com/AXYZdong)
+    - [x] [使用 LlamaIndex 搭建本地 RAG 应用](C7/4.%20使用%20LlamaIndex%20搭建本地%20RAG%20应用.md) @[Youdon](https://github.com/AXYZdong)
+    - [x] [使用 LangChain 实现本地 Agent](C7/5.%20使用%20LangChain%20实现本地%20Agent.md) @[Youdon](https://github.com/AXYZdong)
+    - [x] [使用 LlamaIndex 实现本地 Agent](C7/6.%20使用%20LlamaIndex%20实现本地%20Agent.md) @[Youdon](https://github.com/AXYZdong)
+    - [x] [使用 DeepSeek R1 和 Ollama 实现本地 RAG 应用](C7/7.%20使用%20DeepSeek%20R1%20和%20Ollama%20实现本地%20RAG%20应用.md) @[Youdon](https://github.com/AXYZdong)
     - [ ] 未完待续...
 
 
