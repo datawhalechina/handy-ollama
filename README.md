@@ -52,6 +52,7 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
   - [x] [Docker](docs/C2/4.%20Ollama%20在%20Docker%20下的安装与配置.md) @[Yuki](https://github.com/fuyueagain)
 - [ ] 3 自定义使用 Ollama
   - [x] [自定义导入模型](docs/C3/1.%20自定义导入模型.md) @[杨卓](https://github.com/little1d)
+  - [ ]  自定义模型存储位置 （待更新）
   - [ ]  自定义在 GPU 中运行 （待更新）
 - [x] 4 Ollama REST API
   - [x] [Ollama API 使用指南](docs/C4/1.%20Ollama%20API%20使用指南.md) @[林通](https://github.com/kjlintong) @[春阳](https://github.com/Springff)
