@@ -65,3 +65,11 @@
 - ollama_vision
 
 ![ollama_vision.png](ollama_vision.png)
+
+- ollama_json
+
+![ollama_json.png](ollama-json.png)
+
+- tool-calling
+
+![tool-calling.png](tool-calling.png)
