@@ -1,6 +1,5 @@
 **目录结构**
 
-
 ```bash
 ├── 1.从gguf直接导入/
 │   ├── main.ipynb     
@@ -20,8 +19,6 @@
     ├── main.ipynb   
     └── Modelfile     
 ```
-
-
 
 - `Modelfile`：模型配置文件
 - `main.ipynb`：Jupyter Notebook 文件
