@@ -5,7 +5,10 @@
         * [2.2 Windows](C2/2.%20Ollama%20在%20Windows%20下的安装与配置.md)
         * [2.3 Linux](C2/3.%20Ollama%20在%20Linux%20下的安装与配置.md)
         * [2.4 Docker](C2/4.%20Ollama%20在%20Docker%20下的安装与配置.md)
-    * [第 3 章 自定义导入模型](C3/1.%20自定义导入模型.md)
+    * 第 3 章 自定义使用 Ollama
+        * [3.1 自定义导入模型](C3/1.%20自定义导入模型.md)
+        * [3.2 自定义模型存储位置](C3/2.%20自定义模型存储位置.md)
+        * [3.3 自定义在 GPU 中运行](C3/3.%20自定义在%20GPU%20中运行.md)
     * 第 4 章 Ollama REST API
         * [4.1 Ollama API 使用指南](C4/1.%20Ollama%20API%20使用指南.md)
         * [4.2 在 Python 中使用 Ollama API](C4/2.%20在%20Python%20中使用%20Ollama%20API.md)
