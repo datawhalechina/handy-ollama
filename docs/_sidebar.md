@@ -15,6 +15,7 @@
         * [4.3 在 Java 中使用 Ollama API](C4/3.%20在%20Java%20中使用%20Ollama%20API.md)
         * [4.4 在 JavaScript 中使用 Ollama API](C4/4.%20在%20JavaScript%20中使用%20Ollama%20API.md)
         * [4.5 在 C++ 中使用 Ollama API](C4/5.%20在%20C++%20中使用%20Ollama%20API.md)
+        * [4.6 在 Golang 中使用 Ollama API](C4/6.%20在%20Golang%20中使用%20Ollama%20API.md)
     * 第 5 章 Ollama 在 LangChain 中的使用
         * [5.1 在 Python 中的集成](C5/1.%20Ollama%20在%20LangChain%20中的使用%20-%20Python%20集成.md)
         * [5.2 在 JavaScript 中的集成](C5/2.%20Ollama%20在%20LangChain%20中的使用%20-%20JavaScript%20集成.md)
