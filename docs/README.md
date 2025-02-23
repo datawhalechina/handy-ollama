@@ -52,8 +52,8 @@ Learning to deploy Ollama with hands-on practice, making the deployment of large
   - [x] [在 Java 中使用 Ollama API](C4/3.%20在%20Java%20中使用%20Ollama%20API.md) @[林通](https://github.com/kjlintong)
   - [x] [在 JavaScript 中使用 Ollama API](C4/4.%20在%20JavaScript%20中使用%20Ollama%20API.md) @[春阳](https://github.com/Springff)
   - [x] [在 C++ 中使用 Ollama API](C4/5.%20在%20C++%20中使用%20Ollama%20API.md) @[林通](https://github.com/kjlintong)
+  - [x] [在 Golang 中使用 Ollama API](C4/6.%20在%20Golang%20中使用%20Ollama%20API.md) @[tomowang](https://github.com/tomowang)
   - [ ]  在 C# 中使用 Ollama API （待更新）
-  - [ ]  在 Go 中使用 Ollama API （待更新）
   - [ ]  在 Rust 中使用 Ollama API（待更新）
   - [ ]  在 Ruby 中使用 Ollama API（待更新）
   - [ ]  在 R 中使用 Ollama API（待更新）
