@@ -17,6 +17,10 @@
 
 [简体中文](README.md) | English
 
+🎉 Officially Featured
+
+**Nov. 6, 2025, This project is now featured in the official Ollama repository and is currently the only Tutorial : https://github.com/ollama/ollama#tutorial**
+
 ## 🚀 Introduction
 A hands-on tutorial series for Ollama, designed to simplify the process of deploying large language models locally. With this guide, you'll be able to manage and run powerful LLMs right on your CPU, making advanced AI accessible without GPU dependencies!
 

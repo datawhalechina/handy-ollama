@@ -17,6 +17,10 @@
 
 简体中文 | [English](README_en.md) 
 
+## 🎉官方收录
+
+**2025.11.06，本项目被 Ollama 官方仓库收录，且是目前唯一的 Tutorial：https://github.com/ollama/ollama#tutorial**
+
 ## 🚀 项目简介
 动手学 Ollama 教程，轻松上手实现大模型本地化部署，快速在本地管理以及运行大模型，让 CPU 也可以玩转大模型推理部署！
 
