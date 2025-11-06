@@ -50,39 +50,6 @@ images -------------------- Image assets
 📖 **Read Online**: https://datawhalechina.github.io/handy-ollama/  
 
 
-## ⚠️ Security Notice
-
-<details>
-  <summary>
-   <a href="https://mp.weixin.qq.com/s/n7PyLykK7MlO3re2oOyY5w">Security Advisory: Ollama's Default Configuration Risks</a>
-  </summary>
-
-According to the Tsinghua University Cyberspace Mapping Joint Research Center, the open-source cross-platform LLM tool Ollama has security vulnerabilities in its default configuration, including unauthorized access and model theft risks. Given the widespread use of models like DeepSeek deployed via Ollama in private environments without configuration changes, users face risks of data leakage, unauthorized resource usage, and service disruptions.
-
-### Key Risks:
-1. **Unauthorized Access**: 
-   - Default configuration exposes port 11434 without authentication. Attackers can access models, execute commands, and steal sensitive data.
-2. **Data Leakage**: 
-   - Sensitive information (e.g., model licenses, parameters) can be extracted via unprotected API endpoints.
-3. **Exploitable Vulnerabilities**: 
-   - Historical vulnerabilities (CVE-2024-39720/39722/39719/39721) allow data poisoning, parameter theft, and malicious file operations.
-
-### Security Recommendations:
-1. **Restrict Network Access**: 
-   - Configure Ollama to listen only on localhost and verify port settings.
-2. **Firewall Configuration**: 
-   - Block public access to port 11434 using双向端口过滤.
-3. **Enable Authentication**: 
-   - Use API keys, rate limiting, and IP whitelisting.
-4. **Disable Risky APIs**: 
-   - Restrict or disable endpoints like `/push`, `/delete`, and `/pull`.
-5. **Update Regularly**: 
-   - Keep Ollama updated to patch known vulnerabilities.
-
-We strongly recommend users audit their Ollama deployments, apply these security measures, and report any suspicious activity to local cybersecurity authorities. The National Cybersecurity Information Sharing Center will continue monitoring and issuing updates.
-</details>
-
-
 ## 💡 Motivation
 The rapid growth of open-source LLMs has democratized AI, but many require GPU resources for deployment. Our goal is to make LLM technology accessible to everyone—regardless of hardware limitations—using Ollama, an open-source tool that enables CPU-based deployment of powerful language models.
 
