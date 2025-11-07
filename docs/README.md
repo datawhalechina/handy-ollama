@@ -61,45 +61,45 @@
 本项目旨在使用 CPU 部署本地大模型，虽然目前已经有很多 LLM 相关的教程，但是这些教程中模型基本上都需要 GPU 资源，这对于很多资源受限的学习者不是很友好。因此，本项目通过动手学 Ollama ，帮助学习者快速上手本地 CPU 部署大模型。
 
 ## 📖 内容导航
-| 章节                                                                                                   | 关键内容                      | 状态  |
-|------------------------------------------------------------------------------------------------------|---------------------------|-----|
-| <strong>第一章 Ollama 介绍</strong>                                                                       |                           |     |
-| [1.1 Ollama 介绍](docs/C1/1.%20Ollama%20介绍.md)                                                         | 基础概念、核心特性                 | ✅   |
-| <strong>第二章 Ollama 安装与配置</strong>                                                                    |                           | ✅   |
-| [2.1 macOS 安装与配置](docs/C2/1.%20Ollama%20在%20macOS%20下的安装与配置.md)                                      | macOS 安装、配置               | ✅   |
-| [2.2 Windows 安装与配置](docs/C2/2.%20Ollama%20在%20Windows%20下的安装与配置.md)                                  | Windows 安装、配置             | ✅   |
-| [2.3 Linux 安装与配置](docs/C2/3.%20Ollama%20在%20Linux%20下的安装与配置.md)                                      | Linux 安装、配置               | ✅   |
-| [2.4 Docker 安装与配置](docs/C2/4.%20Ollama%20在%20Docker%20下的安装与配置.md)                                    | Docker 安装、配置              | ✅   |
-| <strong>第三章 自定义使用 Ollama</strong>                                                                    | 个性化使用                     | ✅   |
-| [3.1 自定义导入模型](docs/C3/1.%20自定义导入模型.md)                                                               | 外部模型导入                    | ✅   |
-| [3.2 自定义模型存储位置](docs/C3/2.%20自定义模型存储位置.md)                                                           | 存储路径更改                    | ✅   |
-| [3.3 自定义在 GPU 中运行](docs/C3/3.%20自定义在%20GPU%20中运行.md)                                                 | GPU 加速配置                  | ✅   |
-| <strong>第四章 Ollama REST API</strong>                                                                 |                           |     |
-| [4.1 Ollama API 使用指南](docs/C4/1.%20Ollama%20API%20使用指南.md)                                           | 调用规则、参数说明                 | ✅   |
-| [4.2 Python 中使用 Ollama API](docs/C4/2.%20在%20Python%20中使用%20Ollama%20API.md)                         | Python 调用                 | ✅   |
-| [4.3 Java 中使用 Ollama API](docs/C4/3.%20在%20Java%20中使用%20Ollama%20API.md)                             | Java 调用                   | ✅   |
-| [4.4 JavaScript 中使用 Ollama API](docs/C4/4.%20在%20JavaScript%20中使用%20Ollama%20API.md)                 | JavaScript 调用             | ✅   |
-| [4.5 C++ 中使用 Ollama API](docs/C4/5.%20在%20C++%20中使用%20Ollama%20API.md)                               | C++ 调用                    | ✅   |
-| [4.6 Golang 中使用 Ollama API](docs/C4/6.%20在%20Golang%20中使用%20Ollama%20API.md)                         | Golang 调用                 | ✅   |
-| C# 中使用 Ollama API                                                                                    | C# 调用（待更）                 | 🚧  |
-| Rust 中使用 Ollama API                                                                                  | Rust 调用（待更）               | 🚧  |
-| Ruby 中使用 Ollama API                                                                                  | Ruby 调用（待更）               | 🚧  |
-| R 中使用 Ollama API                                                                                     | R 调用（待更）                  | 🚧  |
-| <strong>第五章 Ollama 在 LangChain 中的使用</strong>                                                         |                           |     |
-| [5.1 Python 中的集成](docs/C5/1.%20Ollama%20在%20LangChain%20中的使用%20-%20Python%20集成.md)                   | Python + LangChain 集成     | ✅   |
-| [5.2 JavaScript 中的集成](docs/C5/2.%20Ollama%20在%20LangChain%20中的使用%20-%20JavaScript%20集成.md)           | JavaScript + LangChain 集成 | ✅   |
-| <strong>第六章 Ollama 可视化界面部署</strong>                                                                  |                           |     |
-| [6.1 FastAPI 部署可视化界面](docs/C6/1.%20使用%20FastAPI%20部署%20Ollama%20可视化对话界面.md)                          | FastAPI 部署                | ✅   |
-| [6.2 WebUI 部署可视化界面](docs/C6/2.%20使用%20WebUI%20部署%20Ollama%20可视化对话界面.md)                              | WebUI 部署                  | ✅   |
-| <strong>第七章 应用案例</strong>                                                                            |                           |     |
-| [7.1 搭建本地 AI Copilot 编程助手](docs/C7/1.%20搭建本地的%20AI%20Copilot%20编程助手.md)                              | 本地编程助手                    | ✅   |
-| [7.2 Dify 接入本地模型](docs/C7/2.%20Dify%20接入%20Ollama%20部署的本地模型.md)                                      | Dify 集成本地模型               | ✅   |
-| [7.3 LangChain 搭建本地 RAG 应用](docs/C7/3.%20使用%20LangChain%20搭建本地%20RAG%20应用.md)                        | LangChain + 本地 RAG        | ✅   |
-| [7.4 LlamaIndex 搭建本地 RAG 应用](docs/C7/4.%20使用%20LlamaIndex%20搭建本地%20RAG%20应用.md)                      | LlamaIndex + 本地 RAG       | ✅   |
-| [7.5 LangChain 实现本地 Agent](docs/C7/5.%20使用%20LangChain%20实现本地%20Agent.md)                            | LangChain + 本地 Agent      | ✅   |
-| [7.6 LlamaIndex 实现本地 Agent](docs/C7/6.%20使用%20LlamaIndex%20实现本地%20Agent.md)                          | LlamaIndex + 本地 Agent     | ✅   |
-| [7.7 DeepSeek R1 + Ollama 本地 RAG](docs/C7/7.%20使用%20DeepSeek%20R1%20和%20Ollama%20实现本地%20RAG%20应用.md) | DeepSeek R1 + 本地 RAG      | ✅   |
-| ...                                                                                                  | ...                       | ... |
+| 章节                                                                          | 关键内容                      | 状态  |
+|-----------------------------------------------------------------------------|---------------------------|-----|
+| <strong>第一章 Ollama 介绍</strong>                                              |                           |     |
+| [1.1 Ollama 介绍](C1/1.%20Ollama%20介绍.md)                                | 基础概念、核心特性                 | ✅   |
+| <strong>第二章 Ollama 安装与配置</strong>                                           |                           | ✅   |
+| [2.1 macOS 安装与配置](C2/1.%20Ollama%20在%20macOS%20下的安装与配置.md)             | macOS 安装、配置               | ✅   |
+| [2.2 Windows 安装与配置](C2/2.%20Ollama%20在%20Windows%20下的安装与配置.md)         | Windows 安装、配置             | ✅   |
+| [2.3 Linux 安装与配置](C2/3.%20Ollama%20在%20Linux%20下的安装与配置.md)             | Linux 安装、配置               | ✅   |
+| [2.4 Docker 安装与配置](C2/4.%20Ollama%20在%20Docker%20下的安装与配置.md)           | Docker 安装、配置              | ✅   |
+| <strong>第三章 自定义使用 Ollama</strong>                                           | 个性化使用                     | ✅   |
+| [3.1 自定义导入模型](C3/1.%20自定义导入模型.md)                                      | 外部模型导入                    | ✅   |
+| [3.2 自定义模型存储位置](C3/2.%20自定义模型存储位置.md)                                  | 存储路径更改                    | ✅   |
+| [3.3 自定义在 GPU 中运行](C3/3.%20自定义在%20GPU%20中运行.md)                        | GPU 加速配置                  | ✅   |
+| <strong>第四章 Ollama REST API</strong>                                        |                           |     |
+| [4.1 Ollama API 使用指南](C4/1.%20Ollama%20API%20使用指南.md)                  | 调用规则、参数说明                 | ✅   |
+| [4.2 Python 中使用 Ollama API](C4/2.%20在%20Python%20中使用%20Ollama%20API.md) | Python 调用                 | ✅   |
+| [4.3 Java 中使用 Ollama API](C4/3.%20在%20Java%20中使用%20Ollama%20API.md)    | Java 调用                   | ✅   |
+| [4.4 JavaScript 中使用 Ollama API](C4/4.%20在%20JavaScript%20中使用%20Ollama%20API.md) | JavaScript 调用             | ✅   |
+| [4.5 C++ 中使用 Ollama API](C4/5.%20在%20C++%20中使用%20Ollama%20API.md)      | C++ 调用                    | ✅   |
+| [4.6 Golang 中使用 Ollama API](C4/6.%20在%20Golang%20中使用%20Ollama%20API.md) | Golang 调用                 | ✅   |
+| C# 中使用 Ollama API                                                           | C# 调用（待更）                 | 🚧  |
+| Rust 中使用 Ollama API                                                         | Rust 调用（待更）               | 🚧  |
+| Ruby 中使用 Ollama API                                                         | Ruby 调用（待更）               | 🚧  |
+| R 中使用 Ollama API                                                            | R 调用（待更）                  | 🚧  |
+| <strong>第五章 Ollama 在 LangChain 中的使用</strong>                                |                           |     |
+| [5.1 Python 中的集成](C5/1.%20Ollama%20在%20LangChain%20中的使用%20-%20Python%20集成.md) | Python + LangChain 集成     | ✅   |
+| [5.2 JavaScript 中的集成](C5/2.%20Ollama%20在%20LangChain%20中的使用%20-%20JavaScript%20集成.md) | JavaScript + LangChain 集成 | ✅   |
+| <strong>第六章 Ollama 可视化界面部署</strong>                                         |                           |     |
+| [6.1 FastAPI 部署可视化界面](C6/1.%20使用%20FastAPI%20部署%20Ollama%20可视化对话界面.md)      | FastAPI 部署                | ✅   |
+| [6.2 WebUI 部署可视化界面](C6/2.%20使用%20WebUI%20部署%20Ollama%20可视化对话界面.md)          | WebUI 部署                  | ✅   |
+| <strong>第七章 应用案例</strong>                                                   |                           |     |
+| [7.1 搭建本地 AI Copilot 编程助手](C7/1.%20搭建本地的%20AI%20Copilot%20编程助手.md)          | 本地编程助手                    | ✅   |
+| [7.2 Dify 接入本地模型](C7/2.%20Dify%20接入%20Ollama%20部署的本地模型.md)                  | Dify 集成本地模型               | ✅   |
+| [7.3 LangChain 搭建本地 RAG 应用](C7/3.%20使用%20LangChain%20搭建本地%20RAG%20应用.md)    | LangChain + 本地 RAG        | ✅   |
+| [7.4 LlamaIndex 搭建本地 RAG 应用](C7/4.%20使用%20LlamaIndex%20搭建本地%20RAG%20应用.md)  | LlamaIndex + 本地 RAG       | ✅   |
+| [7.5 LangChain 实现本地 Agent](C7/5.%20使用%20LangChain%20实现本地%20Agent.md)   | LangChain + 本地 Agent      | ✅   |
+| [7.6 LlamaIndex 实现本地 Agent](C7/6.%20使用%20LlamaIndex%20实现本地%20Agent.md) | LlamaIndex + 本地 Agent     | ✅   |
+| [7.7 DeepSeek R1 + Ollama 本地 RAG](C7/7.%20使用%20DeepSeek%20R1%20和%20Ollama%20实现本地%20RAG%20应用.md) | DeepSeek R1 + 本地 RAG      | ✅   |
+| ...                                                                         | ...                       | ... |
 
 **_注：所有标记（待更新）的内容，以及其他相关的内容，热忱欢迎感兴趣的开发者们 提出 issue 或者 提交 pull request，让我们一起完善这个项目！_**
 
