@@ -4,10 +4,11 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/github/stars/datawhalechina/handy-ollama?style=for-the-badge&logo=github" alt="GitHub stars"/>
-  <img src="https://img.shields.io/github/forks/datawhalechina/handy-ollama?style=for-the-badge&logo=github" alt="GitHub forks"/>
-  <img src="https://img.shields.io/github/issues/datawhalechina/handy-ollama?style=for-the-badge&logo=github" alt="GitHub issues"/>
-    <img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-brighgreen?style=for-the-badge" alt="GitHub license"/>
+  <img src="https://img.shields.io/github/stars/datawhalechina/handy-ollama?style=flat&logo=github" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/forks/datawhalechina/handy-ollama?style=flat&logo=github" alt="GitHub forks"/>
+  <img src="https://img.shields.io/github/issues/datawhalechina/handy-ollama?style=flat&logo=github" alt="GitHub issues"/>
+  <img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-brighgreen?style=flat&logo=github" alt="GitHub license"/>
+<a href="https://datawhalechina.github.io/handy-ollama/"><img src="https://img.shields.io/badge/在线阅读-Online%20Reading-green?style=flat&logo=gitbook" alt="Online Reading"></a>
 </div>
 
 <div align="center">
