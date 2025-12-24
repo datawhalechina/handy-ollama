@@ -110,9 +110,24 @@
 
 ## 🙏 致谢
 
-Ollama 官方仓库：https://github.com/ollama/ollama
+### 核心贡献者
 
-特别感谢以下为教程做出贡献的同学！
+- [张友东](https://github.com/AXYZdong)（Datawhale成员）
+- [林通](https://github.com/kjlintong)（Datawhale成员）
+- [柴春阳](https://github.com/Springff)（内容创作者）
+- [王莹莹](https://github.com/fuyueagain)（Datawhale成员）
+- [曾鑫民](https://github.com/fancyboi999)（内容创作者）
+- [娄天奥](https://github.com/lta155)（Datawhale成员）
+- [杨卓](https://github.com/little1d)（内容创作者）
+- [姜舒凡](https://github.com/Tsumugii24)（Datawhale成员）
+- [曹越](https://github.com/rainsubtime)（内容创作者）
+- [王晓亮](https://github.com/tomowang)（Datawhale成员）
+
+
+### 特别感谢
+- Ollama 官方仓库：https://github.com/ollama/ollama
+- 感谢  [@Sm1les](https://github.com/Sm1les) 对本项目的帮助与支持
+- 感谢所有为本项目做出贡献的开发者们 ❤️
 
 <a href="https://github.com/AXYZdong/handy-ollama/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=AXYZdong/handy-ollama" />
