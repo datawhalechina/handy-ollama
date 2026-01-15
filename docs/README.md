@@ -1,6 +1,6 @@
 <div align='center'>
     <img src="./images/header.svg" alt="alt text" width="100%">
-    <h1>💻 handy-ollama 🦙</h1>
+    <h1>💻 handy-ollama 🦙 (🧪Beta公测版)</h1>
 </div>
 
 <div align="center">
@@ -17,6 +17,9 @@
 </div>
 
 简体中文 | [English](README_en.md) 
+
+> [!WARNING]
+> 🧪 Beta 公测版本提示：教程主体已完成，正在优化细节，欢迎大家提 Issue 反馈问题或建议。
 
 ## 🎉官方收录
 
